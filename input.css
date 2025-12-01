@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight"
+@layer components {}
+.gradient-text {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3.4rem; 
+  margin-top: 10px;
+  line-height: 1.5;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+body {
+  background-color: #0f172b;
+}
